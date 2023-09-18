@@ -1,0 +1,19 @@
+{
+  "name": "hsl_videos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "simple-hls": "^0.0.1"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  }
+}
